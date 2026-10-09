@@ -507,8 +507,4 @@ async def on_ready():
         )
     )
 
-@bot.command(description="Sends the bot's latency.")
-async def ping(ctx):
-    await ctx.respond(f"Pong! Latency is {bot.latency}")
-
 bot.run(TOKEN)
